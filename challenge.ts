@@ -19,6 +19,7 @@ class Person {
 let john = new Person("John", 40);
 let mary = new Person("Mary", 35);
 
-console.log(john.name, john.age);
-console.log(mary.name, mary.age);
-
+console.log(john.tellMyName(john.name));
+console.log(john.tellMyAge(john.age));
+console.log(mary.tellMyName(mary.name));
+console.log(mary.tellMyAge(mary.age));
